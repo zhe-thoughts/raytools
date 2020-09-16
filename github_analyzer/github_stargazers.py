@@ -6,7 +6,8 @@ import time
 
 users = []
 locations = []
-token = 'token 4ce3c2998285edb7ae2fcf56759ecc866578d68b'
+# Note: add your Github access token
+token = 'token xxxxx'
 headers = {'Authorization': token}
 starsURL = 'https://api.github.com/repos/ray-project/ray/stargazers?page='
 
